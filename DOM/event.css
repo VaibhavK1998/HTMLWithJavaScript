@@ -1,0 +1,14 @@
+h1{
+  color: red;
+  font-size: 70px;
+}
+.classHeading{
+  color: red;
+}
+
+#btn1{
+ background-color: aqua;
+}
+#btn2{
+  background-color: rgb(171, 226, 7);
+ }

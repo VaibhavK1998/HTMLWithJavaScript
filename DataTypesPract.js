@@ -34,3 +34,19 @@ const personalInfo={empName:'suresh',empId:100};
 console.log('data type of personalInfo:'+typeof(personalInfo));
 empName=personalInfo.empName="mahesh";
 console.log(personalInfo);
+
+/* worl with object*/
+let info={
+  id:10,
+  designation:'tester',
+  previousComapny:{
+first:'amazon',
+second:'amdocs',
+third:'Tcs'
+  },
+  hobbies:['cricket','hollyball','music'],
+  surname:'kitukale'
+}
+
+console.log('hobbies:'+info.hobbies[0]);
+console.log('companyHistory:'+info.previousComapny.first);
