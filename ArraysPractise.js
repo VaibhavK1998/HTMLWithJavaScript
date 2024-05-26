@@ -3,7 +3,7 @@ let aray2=['aman','rajsesh',false,39003];
 console.log("array2:"+aray2);
 console.log('length of array:'+money.length);
 
-console.log(money[2]);
+console.log('money2:'+money[2]);
 
 // fetching all values from array using for of loop
 for(let mons of money){
