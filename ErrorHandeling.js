@@ -7,7 +7,7 @@ console.log(b);
 try{
   console.log(c);
 }catch(err){
-  
+  let c=100;
   console.log(err);
 }
 

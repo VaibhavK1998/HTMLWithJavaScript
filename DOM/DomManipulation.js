@@ -55,6 +55,7 @@ appendDiv.append(newbtn);
 
  let a=0;
  while(a<5){
+  gae=90;
   let row=document.createElement('tr');
 //row.innerText='rownewlu';
 let appendDiv=document.querySelector('table');
@@ -65,15 +66,15 @@ let data3=document.createElement('td');
 data1.innerText="column1";
 data2.innerText="column2";
 data3.innerText="column3";
-let appendData=document.querySelector('tr');
-appendDiv.append(data1);
-appendDiv.append(data2);
-appendDiv.append(data3);
+
+row.append(data1);
+row.append(data2);
+row.append(data3);
 a++;
  }
   
  let newTable=document.querySelector('table');
- newTable.remove();
+ //newTable.remove();
  
 
 

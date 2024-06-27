@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Input Value</title>
+</head>
+<body>
+    <input type="password" id="myInput" placeholder="Enter something">
+    <button id="myButton">Get Value</button>
+    <p id="output"></p>
+
+    <script>
+// Wait for the DOM to fully load
+document.addEventListener("DOMContentLoaded", function() {
+    // Get references to the input field and the button
+    var inputField = document.getElementById("myInput");
+    var button = document.getElementById("myButton");
+    var output = document.getElementById("output");
+
+    // Add an event listener to the button
+    button.addEventListener("click", function() {
+        // Get the value from the input field
+        var inputValue = inputField.value;
+        
+        // Display the value in the output paragraph
+        output.textContent = "You entered: " + inputValue;
+    });
+});
+
+
+    </script>
+    
+ 
+</body>
+</html>

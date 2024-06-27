@@ -45,5 +45,6 @@ let item={
 };
 
 for(let value in item){
+  c
   console.log("key="+value+ "   " +"value="+item[value]);
 }

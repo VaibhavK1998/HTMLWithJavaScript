@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Fields Example</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <!-- Other form fields -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Hidden fields -->
+        <input type="hidden" id="hiddenField1" name="AccountNumber" value="13003030">
+        <input type="hidden" id="hiddenField2" name="IfscCode" value="IDFC0300">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

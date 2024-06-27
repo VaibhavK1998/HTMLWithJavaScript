@@ -4,6 +4,9 @@ ar.map((val)=>{
   console.log(val);
 })
 
+ar.map((val2)=>{
+console.log(val2);
+})
 let ar2=[20,90,44,56,89];
 
 let even=ar2.filter((val)=>{

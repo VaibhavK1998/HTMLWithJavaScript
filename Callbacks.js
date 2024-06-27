@@ -23,5 +23,4 @@ function getData(data){
 console.log("data:"+data);
 setTimeout(getStud,5000);
 }
-
 getData(100);

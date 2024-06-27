@@ -4,6 +4,10 @@ btn1.onclick=()=>{
   document.body.style.backgroundColor='pink';
 }
 
+// btn1.onclick=function clickbale(){
+//   document.body.style.backgroundColor='pink';
+// }
+
 let btn2=document.querySelector('#btn2');
 btn2.ondblclick=()=>{
  document.querySelector('h2').innerText="double btn clicked succesfully";
@@ -75,6 +79,13 @@ btn5.removeEventListener('mouseover',btHand);// we use this method to remove eve
 
 /*diffrent windows method to load url */
 let btn7=document.querySelector('#btn7');
+
+function loadUrl(){
+  window.location.href="https://www.openai.com";
+}
+
+btn7.addEventListener('click',loadUrl);
+
 btn7.addEventListener('click',function loadurl(){
  // window.location.href="https://www.openai.com"; Sets or gets the complete URL of the current page.
  //window.location.assign("https://www.openai.com"); Loads a new document. and you can move back to previous page

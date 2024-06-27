@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculation</title>
+</head>
+<body>
+    <div>
+        <span id="price1"></span>
+        <span id="discount"></span>
+        <span id="finalPrice"></span>
+    </div>
+
+    <script>
+        let mainPriceElement = document.querySelector('#price1');
+        mainPriceElement.innerText = "1000";
+        let discountElement = document.querySelector('#discount');
+        discountElement.innerText = "10%";
+
+        let Discount = 10;
+        let mainPrice = parseFloat(mainPriceElement.innerText);
+        let price = mainPrice - (mainPrice * Discount / 100);
+
+        let finalPriceElement = document.querySelector('#finalPrice');
+        finalPriceElement.innerText = price.toFixed(2);  // Set the final price with two decimal places
+    </script>
+</body>
+</html>

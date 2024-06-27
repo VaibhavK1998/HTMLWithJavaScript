@@ -43,6 +43,6 @@ console.log("splice method use:"+ar3);
 
 let ar4=[100,300,400,904];
 
-ar4.forEach(function mfunction(value){// .forEach loop we only used with the array
+ar4.forEach((value)=>{// .forEach loop we only used with the array
 console.log("ar4:"+value);// note this forEach store this retrive value from array in the param value
 });
